@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Penta-Craft | IT-школа нового поколения</title>
   <meta name="description"
-    content="Инновационная IT-школа Penta-Craft. Обучение профессиям будущего, стажировки и карьерный рост.">
+    content="Инновационная IT-школа Penta-Craft. Обучение профессиям будущего, стажировки и карьерный рост в Европе.">
 
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjU2IDQ4TDQ2NCAxOThMMzgyLjQgNDY0SDEyOS42TDQ4IDE5OEwyNTYgNDhaIiBmaWxsPSIjN0MzQUVEIi8+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjcwIiByPSI3MCIgZmlsbD0iIzIyRDNFRSIvPjwvc3ZnPg==">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +17,14 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
     rel="stylesheet">
 
-  <script src="https://unpkg.com/lucide@latest"></script>=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
     <script type="module" crossorigin src="/penta-craft/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/penta-craft/assets/styles-vGWeXX0Y.css">
+    <link rel="stylesheet" crossorigin href="/penta-craft/assets/styles-DIo7Ye0d.css">
   </head>
   <body>
     <header class="header">
@@ -51,7 +56,376 @@
 
     <main class="main">
       <!-- Loads the specified .html file -->
-      
+      <section class="hero" id="hero">
+    <div class="hero__background">
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+        <div class="hero__blob hero__blob--3"></div>
+        <div class="hero__grid"></div>
+    </div>
+
+    <div class="container hero__container">
+        <div class="hero__content">
+            <div class="hero__badge">
+                <span class="hero__badge-dot"></span>
+                Платформа уже доступна в Европе
+            </div>
+
+            <h1 class="hero__title">
+                Твой старт в <span class="text-gradient">IT-индустрии</span> <br>
+                нового поколения
+            </h1>
+
+            <p class="hero__subtitle">
+                Освойте технологии, которые меняют правила игры.
+                Пошаговый путь от новичка до PRO с экспертной поддержкой на всех этапах.
+            </p>
+
+            <div class="hero__actions">
+                <a href="#contact" class="btn btn--primary btn--lg">Начать сейчас</a>
+                <a href="#courses" class="btn btn--outline btn--lg">Оценить перспективы</a>
+            </div>
+
+            <div class="hero__stats">
+                <div class="stat-item">
+                    <span class="stat-item__num">2k+</span>
+                    <span class="stat-item__label">Студентов</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__num">96%</span>
+                    <span class="stat-item__label">Трудоустройство</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-item__num">24/7</span>
+                    <span class="stat-item__label">Поддержка</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section about" id="about">
+    <div class="container about__container">
+        <div class="about__content">
+            <span class="section-tag">О платформе</span>
+            <h2 class="section-title">Образовательная экосистема <br> <span class="text-accent">нового формата</span>
+            </h2>
+            <p class="section-desc">
+                Мы отказались от скучных лекций. Penta-Craft — это иммерсивная среда, где вы учитесь, создавая реальные
+                продукты.
+                Интеграция AI-инструментов в процесс обучения ускоряет прогресс на 40%.
+            </p>
+            <ul class="about__list">
+                <li>
+                    <i data-lucide="check-circle" class="text-accent"></i>
+                    <span>Методология Micro-learning (уроки по 15 мин)</span>
+                </li>
+                <li>
+                    <i data-lucide="check-circle" class="text-accent"></i>
+                    <span>Практика на реальных кейсах компаний ЕС</span>
+                </li>
+                <li>
+                    <i data-lucide="check-circle" class="text-accent"></i>
+                    <span>Менторство от Senior-разработчиков</span>
+                </li>
+            </ul>
+            <a href="#courses" class="btn btn--outline">Узнать детали</a>
+        </div>
+
+        <div class="about__visual">
+            <div class="about__img-wrapper">
+                <img src="/penta-craft/assets/one-FwdvRiXC.jpg" alt="Student working" class="about__main-img">
+
+                <div class="float-card float-card--1">
+                    <i data-lucide="code-2" class="float-icon"></i>
+                    <span>Clean Code</span>
+                </div>
+                <div class="float-card float-card--2">
+                    <span class="float-stat">98%</span>
+                    <span>Success Rate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section features" id="features">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title">Почему выбирают <span class="text-gradient">Penta-Craft</span></h2>
+            <p class="section-desc center-desc">Технологии, которые работают на вас. Мы даем инструменты для быстрого
+                старта.</p>
+        </div>
+
+        <div class="features__grid">
+            <div class="feature-card">
+                <div class="feature-icon-box">
+                    <i data-lucide="zap"></i>
+                </div>
+                <h3>Быстрый старт</h3>
+                <p>От нуля до первого проекта за 3 недели. Наша программа оптимизирована для быстрого входа в профессию.
+                </p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon-box">
+                    <i data-lucide="globe"></i>
+                </div>
+                <h3>Работа на Европу</h3>
+                <p>Учим специфике рынка ЕС. Помогаем с резюме и подготовкой к собеседованиям в международные компании.
+                </p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon-box">
+                    <i data-lucide="cpu"></i>
+                </div>
+                <h3>AI-Ассистенты</h3>
+                <p>Доступ к премиальным нейросетям для генерации кода и дизайна. Работайте умнее, а не больше.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon-box">
+                    <i data-lucide="shield-check"></i>
+                </div>
+                <h3>Гарантия качества</h3>
+                <p>Проверенные методологии. Если вы не освоите материал, мы проведем дополнительные сессии бесплатно.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section courses" id="courses">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-tag">Обучение</span>
+            <h2 class="section-title">Выберите свой <span class="text-accent">вектор</span></h2>
+        </div>
+
+        <div class="courses__grid">
+            <div class="course-card js-tilt">
+                <div class="course-card__content">
+                    <div class="course-card__icon">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>Frontend Engineering</h3>
+                    <p>React, Next.js, WebGL. Создавайте интерфейсы, которые живут.</p>
+                    <div class="course-card__tags">
+                        <span>6 месяцев</span>
+                        <span>С нуля</span>
+                    </div>
+                    <a href="#contact" class="course-card__link">Подробнее <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="course-card__glow"></div>
+            </div>
+
+            <div class="course-card js-tilt">
+                <div class="course-card__content">
+                    <div class="course-card__icon">
+                        <i data-lucide="server"></i>
+                    </div>
+                    <h3>Python & Backend</h3>
+                    <p>Django, FastAPI, Docker. Архитектура сложных систем.</p>
+                    <div class="course-card__tags">
+                        <span>7 месяцев</span>
+                        <span>Hard Skills</span>
+                    </div>
+                    <a href="#contact" class="course-card__link">Подробнее <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="course-card__glow"></div>
+            </div>
+
+            <div class="course-card js-tilt">
+                <div class="course-card__content">
+                    <div class="course-card__icon">
+                        <i data-lucide="brain-circuit"></i>
+                    </div>
+                    <h3>Data Science & AI</h3>
+                    <p>Machine Learning, нейросети. Обучайте ИИ решать реальные задачи.</p>
+                    <div class="course-card__tags">
+                        <span>8 месяцев</span>
+                        <span>PRO</span>
+                    </div>
+                    <a href="#contact" class="course-card__link">Подробнее <i data-lucide="arrow-right"></i></a>
+                </div>
+                <div class="course-card__glow"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section career" id="career">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Ваш путь к <span class="text-gradient">офферу</span></h2>
+            <p class="section-desc">Карьерный центр работает с первого дня обучения.</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline__line">
+                <div class="timeline__progress"></div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <span class="timeline__step">Этап 01</span>
+                    <h3>Профилирование</h3>
+                    <p>Определяем ваши сильные стороны и строим персональный трек развития.</p>
+                </div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <span class="timeline__step">Этап 02</span>
+                    <h3>Реальные проекты</h3>
+                    <p>Вы наполняете портфолио кейсами, которые не стыдно показать работодателю.</p>
+                </div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <span class="timeline__step">Этап 03</span>
+                    <h3>Симуляция собеседований</h3>
+                    <p>Технические интервью с менторами из Google и Amazon. Работа над ошибками.</p>
+                </div>
+            </div>
+
+            <div class="timeline__item">
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                    <span class="timeline__step">Финал</span>
+                    <h3>Трудоустройство</h3>
+                    <p>Рассылка резюме по базе партнеров. Сопровождение до подписания контракта.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section blog" id="blog">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title">Инсайты <span class="text-accent">индустрии</span></h2>
+        </div>
+
+        <div class="blog__grid">
+            <article class="blog-card">
+                <div class="blog-card__image">
+                    <img src="/penta-craft/assets/two-JZLbYC7k.jpg" alt="AI coding">
+                </div>
+                <div class="blog-card__body">
+                    <div class="blog-card__meta">
+                        <span>02 Дек 2025</span>
+                        <span>Технологии</span>
+                    </div>
+                    <h3>Как AI меняет работу Junior-разработчика?</h3>
+                    <a href="#contact" class="blog-card__link">Читать статью</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-card__image">
+                    <img src="/penta-craft/assets/three-6UQm1V_s.jpg" alt="Remote work">
+                </div>
+                <div class="blog-card__body">
+                    <div class="blog-card__meta">
+                        <span>28 Ноя 2025</span>
+                        <span>Карьера</span>
+                    </div>
+                    <h3>Топ-5 стран для релокации IT-специалиста</h3>
+                    <a href="#contact" class="blog-card__link">Читать статью</a>
+                </div>
+            </article>
+
+            <article class="blog-card">
+                <div class="blog-card__image">
+                    <img src="/penta-craft/assets/four-C2Mad-X6.jpg" alt="Web3">
+                </div>
+                <div class="blog-card__body">
+                    <div class="blog-card__meta">
+                        <span>15 Ноя 2025</span>
+                        <span>Web3</span>
+                    </div>
+                    <h3>Почему Web3 разработка снова в тренде?</h3>
+                    <a href="#contact" class="blog-card__link">Читать статью</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section innovations" id="innovations">
+    <div class="container">
+        <div class="innovations__banner">
+            <div class="innovations__content">
+                <h2>Инновации на пальцах</h2>
+                <p>Мы интегрируем Web3 и AI в каждый курс. Вы будете готовы к технологиям завтрашнего дня уже сегодня.
+                </p>
+                <div class="tech-stack">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>OpenAI API</span>
+                    <span>Three.js</span>
+                </div>
+            </div>
+            <div class="innovations__glow"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section contact" id="contact">
+    <div class="container contact__container">
+        <div class="contact__info">
+            <h2 class="section-title">Начните свой путь <br> прямо сейчас</h2>
+            <p class="section-desc">Оставьте заявку на бесплатную консультацию. Мы поможем подобрать программу и ответим
+                на все вопросы.</p>
+
+            <div class="contact__methods">
+                <div class="method-item">
+                    <i data-lucide="mail"></i>
+                    <span>support@node-onix.today</span>
+                </div>
+                <div class="method-item">
+                    <i data-lucide="phone"></i>
+                    <span>+39 02 1234 5678</span>
+                </div>
+            </div>
+        </div>
+
+        <form class="contact__form" id="contactForm">
+            <div class="form-group">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" placeholder="Иван Петров" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="Только цифры" inputmode="numeric" required
+                oninput="this.value = this.value.replace(/\D/g, '')">
+                <span class="error-msg" id="phoneError">Введите корректный номер (только цифры)</span>
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">Я согласен с <a href="privacy.html">Политикой конфиденциальности</a></label>
+            </div>
+
+            <div class="form-group captcha-group">
+                <label id="captchaLabel">Сколько будет 3 + 2?</label>
+                <input type="number" id="captchaInput" required>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+            <div class="form-status" id="formStatus"></div>
+        </form>
+    </div>
+</section>
+
+
     </main>
 
     <footer class="footer">
@@ -113,6 +487,11 @@
     </div>
   </div>
 </footer>
+    <div class="cookie-popup" id="cookiePopup">
+      <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie
+          политике</a>.</p>
+      <button class="btn btn--primary btn--sm" id="acceptCookie">Принять</button>
+    </div>
 
     <script>
       lucide.createIcons();
