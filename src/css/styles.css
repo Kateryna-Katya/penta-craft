@@ -1200,3 +1200,113 @@ h6 {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
+/* --- LEGAL PAGES STYLE --- */
+.legal-page {
+    padding-top: 140px;
+    /* Отступ от фиксированного хедера */
+    padding-bottom: 80px;
+    background-color: var(--color-bg);
+    min-height: 100vh;
+}
+
+.legal-header {
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 30px;
+}
+
+.legal-header h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 10px;
+}
+
+.legal-content {
+    max-width: 800px;
+    /* Ограничиваем ширину для удобства чтения */
+    color: var(--color-text-muted);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.legal-content h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.legal-content p {
+    margin-bottom: 20px;
+}
+
+.legal-content strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Стилизация списков */
+.legal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.legal-list li {
+    background: var(--color-bg-alt);
+    padding: 24px;
+    border-radius: var(--radius-sm);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.legal-list li strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--color-accent);
+    font-size: 1.1rem;
+}
+
+.legal-list li p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.simple-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.simple-list li {
+    margin-bottom: 10px;
+    color: var(--color-text-muted);
+}
+
+/* Контакты внизу */
+.legal-contact {
+    margin-top: 60px;
+    padding: 30px;
+    background: rgba(124, 58, 237, 0.05);
+    /* Легкий фиолетовый фон */
+    border: 1px solid rgba(124, 58, 237, 0.2);
+    border-radius: var(--radius-md);
+}
+
+.legal-contact h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+.link-accent {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 5px;
+    transition: var(--transition);
+}
+
+.link-accent:hover {
+    color: var(--color-primary);
+}
